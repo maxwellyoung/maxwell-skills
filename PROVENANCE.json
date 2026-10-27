@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "skills": [
+    {
+      "name": "modernize",
+      "path": "skills/modernize/SKILL.md",
+      "sha256": "f44278711976c8cfd378d79848c531ebc9db31a3c0a65914ca83c1279462b7a9",
+      "source": {
+        "repository": "https://github.com/t3dotgg/tstack",
+        "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+        "path": "skills/modernize/SKILL.md",
+        "modified": true
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "takeover",
+      "path": "skills/takeover/SKILL.md",
+      "sha256": "4ad0e48ef30b0fd878e9e71e65cfecb3db10e9a3ee32d4693d6e69cccbff861c",
+      "source": {
+        "repository": "https://github.com/t3dotgg/tstack",
+        "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+        "path": "skills/takeover/SKILL.md",
+        "modified": true
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "rehearse",
+      "path": "skills/rehearse/SKILL.md",
+      "sha256": "29a41fe0439acd6a2bb5f6748977f14dd1216f82c221c99510f3d288940d4fa1",
+      "source": {
+        "origin": "portable rewrite of maintainer workflow",
+        "modified": true
+      },
+      "license": "MIT"
+    }
+  ],
+  "scope": "Explicit portable release; no private repository history or local configuration."
+}
