@@ -1,12 +1,23 @@
 # Maxwell's skills
 
-Three focused workflows for coding agents and conversation practice. Each skill is a plain `SKILL.md` file, suitable for Claude Code or Codex.
+Four focused workflows for coding agents, UI critique and conversation practice. Each skill is a plain `SKILL.md` file, suitable for Claude Code or Codex.
 
 | Skill | Use it for | Boundary |
 | --- | --- | --- |
 | `modernize` | Decide whether an old PR should be updated, reworked or retired before rebasing it | A relevance question stays read-only; a recommendation to close is not permission to close |
 | `takeover` | Continue inherited work while preserving intent, contributors and fresh evidence | A handoff is context, not verification or permission for unrelated changes |
 | `rehearse` | Practise a meeting with one question and concise feedback at a time | No invented project facts, private thoughts or commitments to the real counterpart |
+| `ui-benchmark-review` | Shape a UI review brief, choose useful references, compare screenshots and prioritize visual fixes | Read-only critique; scores need visible evidence and do not establish runtime behavior or human approval |
+
+## UI benchmark review
+
+Start with your UI screenshots and a request such as:
+
+> Use ui-benchmark-review to help choose references, compare this UI, and prioritize improvements to clarity and polish.
+
+The skill asks a short Q&A about the task, desired direction and strengths to preserve when that context is missing. It can suggest two to four references, explaining which screen or pattern each helps evaluate. You can choose, replace or skip those references, or ask the agent to pick.
+
+The review returns a seven-category visual scorecard, concrete strengths, and prioritized MUST / SHOULD / COULD fixes. Follow-up rounds retain the agreed brief and use fresh screenshots. Reference research requires available research tools; screenshot scoring requires image viewing. Delegated reviewers are optional and require an explicit request.
 
 ## Install selectively
 

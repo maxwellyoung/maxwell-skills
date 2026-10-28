@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Benchmark Review"
+  short_description: "Choose references, compare UI, and prioritize fixes"
+  default_prompt: "Use $ui-benchmark-review to review this UI, ask a brief Q&A where context is missing, help choose useful references, and prioritize visual improvements."

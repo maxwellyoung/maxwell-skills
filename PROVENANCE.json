@@ -34,6 +34,22 @@
         "modified": true
       },
       "license": "MIT"
+    },
+    {
+      "name": "ui-benchmark-review",
+      "path": "skills/ui-benchmark-review/SKILL.md",
+      "sha256": "fa4c47681714e79496011c2766306c8e48ef6b3df203aa3990ff3fefc90a2a46",
+      "source": {
+        "origin": "maintainer screenshot-based UI review workflow",
+        "modified": false
+      },
+      "license": "MIT",
+      "resources": [
+        {
+          "path": "skills/ui-benchmark-review/agents/openai.yaml",
+          "sha256": "d7c390a3ee70eb33971511480fae88f7c4af94363034accc69c1de0a4f68139b"
+        }
+      ]
     }
   ],
   "scope": "Explicit portable release; no private repository history or local configuration."
