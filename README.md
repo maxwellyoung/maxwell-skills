@@ -1,6 +1,6 @@
 # Maxwell's skills
 
-Five focused workflows for coding agents, UI critique, web font optimisation and conversation practice. Each skill is a plain `SKILL.md` file, suitable for Claude Code or Codex.
+Thirteen focused workflows for coding agents, UI critique, web and app performance, and conversation practice. Each skill is a plain `SKILL.md` file, suitable for Claude Code or Codex.
 
 | Skill | Use it for | Boundary |
 | --- | --- | --- |
@@ -9,6 +9,14 @@ Five focused workflows for coding agents, UI critique, web font optimisation and
 | `rehearse` | Practise a meeting with one question and concise feedback at a time | No invented project facts, private thoughts or commitments to the real counterpart |
 | `ui-benchmark-review` | Shape a UI review brief, choose useful references, compare screenshots and prioritize visual fixes | Read-only critique; scores need visible evidence and do not establish runtime behavior or human approval |
 | `font-subset` | Shrink a site's web fonts to the characters, axes and features it uses, split into a preloaded core and a `unicode-range` extended file, and prove rendering is unchanged with pixel diffs | Any visual change is a regression until the user approves it; no build step, and `font-display` and fallbacks stay as they are |
+| `image-optimize` | Size and re-encode a site's images to what each breakpoint and DPR actually shows, lossless first, with `srcset`, `<picture>` fallbacks and LCP/CLS checks | Any visible change is a regression; lossy encoding needs a perceptual threshold the user approves; loading attributes stay as they are |
+| `css-prune` | Remove CSS no page uses, proven by rule coverage across a page × state × viewport matrix plus static search | Unproven rules are kept; no new purge step in the build without approval |
+| `js-trim` | Ship less JavaScript per route: coverage across real flows, tree-shaking blockers, duplicates, dev code and polyfills | Behaviour is the contract; library swaps, raised browser targets and new loading states need approval |
+| `svg-icon-optimize` | Shrink SVGs and icon delivery with a per-usage-mode SVGO config, proven by per-icon pixel diffs and an accessibility-tree check | No change to pixels, theming hooks or accessible names; deleting public files is a proposal |
+| `third-party-scripts` | Inventory third-party scripts from the network, measure each vendor's cost, and propose cuts and loading changes | Removing a vendor needs approval per vendor; nothing may load earlier in any consent state; no tag manager publishes |
+| `cache-headers` | Set HTTP caching per response type so repeat visits download almost nothing, proven on a preview with header matrices and stale- and private-content tests | Never serve stale or another user's content; deploys, purges and host settings need approval |
+| `media-encode` | Re-encode self-hosted video and audio to its rendered size with codec fallbacks and faststart, proven with VMAF, frame grabs and playback in each engine | Quality threshold approved up front; playback attributes stay as they are; no uploads |
+| `app-bundle-size` | Shrink an iOS or Android app's per-device download and install size (native, React Native, Expo), proven with same-commit size reports, screenshot diffs and release smoke flows | Store, TestFlight and OTA publishes need approval; crash symbols must keep uploading |
 
 ## UI benchmark review
 

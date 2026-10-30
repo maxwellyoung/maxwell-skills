@@ -60,6 +60,110 @@
         "modified": false
       },
       "license": "MIT"
+    },
+    {
+      "name": "image-optimize",
+      "path": "skills/image-optimize/SKILL.md",
+      "sha256": "6a0d225b95e43c52bc8154b25f50a28c842137864577cd4ec2ee94fb958399f6",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "css-prune",
+      "path": "skills/css-prune/SKILL.md",
+      "sha256": "57035177b7110bcbcd002c723150708b6b50bfe40d34ea34ea0896e330660039",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT",
+      "resources": [
+        {
+          "path": "skills/css-prune/references/coverage-harness.md",
+          "sha256": "8072a2431df21c694e7097b569de8b4d9ad9a22aedc6b9aab6cc24534fa2bd9c"
+        }
+      ]
+    },
+    {
+      "name": "js-trim",
+      "path": "skills/js-trim/SKILL.md",
+      "sha256": "4d47b5d3dfded839fb2279d381691b67aba8dfc6d2639671b0fdf633deca0086",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "svg-icon-optimize",
+      "path": "skills/svg-icon-optimize/SKILL.md",
+      "sha256": "ce44bbb74f6fc2061d753e82d645ae99ccb72adca7bc943163392b613df63947",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT",
+      "resources": [
+        {
+          "path": "skills/svg-icon-optimize/references/svgo-plugins.md",
+          "sha256": "2589b1cc03e1e92884bdff8a0b6cfa58c079de1ae03adf2f3d58f7dc1f7c4a68"
+        }
+      ]
+    },
+    {
+      "name": "third-party-scripts",
+      "path": "skills/third-party-scripts/SKILL.md",
+      "sha256": "ef7360ff7c9223861b84f663727f2d96db669b7d99ad92d241c1df4248a50d5a",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "cache-headers",
+      "path": "skills/cache-headers/SKILL.md",
+      "sha256": "78b03ffab3ed6fdd123f75eda19de53cdb85e992db5557b61208a2b9b487c0ba",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT",
+      "resources": [
+        {
+          "path": "skills/cache-headers/references/hosts.md",
+          "sha256": "5d4e94a82e28e6577ee5b05c98c67b81d4e9fe01a459b21a09bae887d7c89f98"
+        }
+      ]
+    },
+    {
+      "name": "media-encode",
+      "path": "skills/media-encode/SKILL.md",
+      "sha256": "1799127f078c849b868c061d3d4b1ef1a76f4085c2abfe5294ad09a2047e8cd1",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT",
+      "resources": [
+        {
+          "path": "skills/media-encode/references/commands.md",
+          "sha256": "b59e6b75d0b2b06fd5e3ba11322de596573cb8ea836b6c39e6d591c98c28c0ea"
+        }
+      ]
+    },
+    {
+      "name": "app-bundle-size",
+      "path": "skills/app-bundle-size/SKILL.md",
+      "sha256": "05843da9abfb97c553bd58a588be4a9ba4245fa22abb854eb356d932d10a46a1",
+      "source": {
+        "origin": "maintainer performance workflow",
+        "modified": false
+      },
+      "license": "MIT"
     }
   ],
   "scope": "Explicit portable release; no private repository history or local configuration."
