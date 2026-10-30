@@ -50,6 +50,16 @@
           "sha256": "d7c390a3ee70eb33971511480fae88f7c4af94363034accc69c1de0a4f68139b"
         }
       ]
+    },
+    {
+      "name": "font-subset",
+      "path": "skills/font-subset/SKILL.md",
+      "sha256": "811941db1832b7257d1ae04ecb7480e95cdfce24a14688ae8a1adab81d9860d3",
+      "source": {
+        "origin": "maintainer web font subsetting workflow",
+        "modified": false
+      },
+      "license": "MIT"
     }
   ],
   "scope": "Explicit portable release; no private repository history or local configuration."

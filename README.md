@@ -1,6 +1,6 @@
 # Maxwell's skills
 
-Four focused workflows for coding agents, UI critique and conversation practice. Each skill is a plain `SKILL.md` file, suitable for Claude Code or Codex.
+Five focused workflows for coding agents, UI critique, web font optimisation and conversation practice. Each skill is a plain `SKILL.md` file, suitable for Claude Code or Codex.
 
 | Skill | Use it for | Boundary |
 | --- | --- | --- |
@@ -8,6 +8,7 @@ Four focused workflows for coding agents, UI critique and conversation practice.
 | `takeover` | Continue inherited work while preserving intent, contributors and fresh evidence | A handoff is context, not verification or permission for unrelated changes |
 | `rehearse` | Practise a meeting with one question and concise feedback at a time | No invented project facts, private thoughts or commitments to the real counterpart |
 | `ui-benchmark-review` | Shape a UI review brief, choose useful references, compare screenshots and prioritize visual fixes | Read-only critique; scores need visible evidence and do not establish runtime behavior or human approval |
+| `font-subset` | Shrink a site's web fonts to the characters, axes and features it uses, split into a preloaded core and a `unicode-range` extended file, and prove rendering is unchanged with pixel diffs | Any visual change is a regression until the user approves it; no build step, and `font-display` and fallbacks stay as they are |
 
 ## UI benchmark review
 
